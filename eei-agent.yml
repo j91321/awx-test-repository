@@ -1,0 +1,4 @@
+- name: Install EEI Agent
+  hosts: all
+  roles:
+    - ansible-role-eei-agent
